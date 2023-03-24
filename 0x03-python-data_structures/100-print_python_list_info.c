@@ -25,8 +25,7 @@ void print_python_list_info(PyObject *p)
 		item = PyList_GetItem(p, i);
 		printf("Element %ld: %s\n", i, Py_TYPE(item)->tp_name);
 	}
-=======
- * print_python_list_info - prints info about a python list
+ /* print_python_list_info - prints info about a python list
  * @p: PyObject
  * 
  *Return: void 
@@ -49,5 +48,4 @@ void print_python_list_info(PyObject *p)
         item = PyList_GetItem(p, i);
         printf("Element %ld: %s\n", i, Py_TYPE(item)->tp_name);
     }
->>>>>>> a75d310d9740983165d2e275ef686696e6fcae3e
 }
