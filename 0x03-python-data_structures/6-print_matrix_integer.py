@@ -6,4 +6,3 @@ def print_matrix_integer(matrix=[[]]):
             count += 1
             print('{:d}'.format(elem), end=(" " if count < len(row) else ""))
         print()
-
